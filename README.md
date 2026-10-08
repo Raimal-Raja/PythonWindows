@@ -2,9 +2,9 @@
 
 Archive of unofficial Windows installers, embedded distributions, and build patches for older Python releases.
 
-## Repository guide
+## Setup and repository reference
 
-### Contents
+### Project structure
 
 - [3.10.12](3.10.12)
 - [3.10.13](3.10.13)
@@ -40,7 +40,11 @@ Installer binaries and their behavior were not executed or validated in this Lin
 
 ### Validation
 
-Reviewed on 2026-10-08. Repository structure and documentation were reviewed. No application runtime, training job, or platform-specific build was executed.
+Audit: 2026-10-08. Repository structure, setup instructions and description were reviewed. Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
+
+### Repository description
+
+The short GitHub description is provided in [REPOSITORY_DESCRIPTION.md](REPOSITORY_DESCRIPTION.md).
 
 ### Contributions
 
